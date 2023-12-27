@@ -1,4 +1,4 @@
-cavalcante
+
 function calcularRank(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas;
     let nivel;
@@ -18,7 +18,7 @@ function calcularRank(vitorias, derrotas) {
     } else {
         nivel = "Imortal";
     }
-  
+
     console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 }
 
