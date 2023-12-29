@@ -19,7 +19,9 @@ function calcularRank(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
+    return (`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 }
 
-calcularRank(1000, 0);
+const resultado = calcularRank(1000, 0);
+
+console.log(resultado);
